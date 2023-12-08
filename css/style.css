@@ -11,7 +11,9 @@ a {
 }
 
 header, footer {
-  background-color: #6d6875;
+  background: #20002c;  /* fallback for old browsers */;
+  background: -webkit-linear-gradient(to right, #cbb4d4, #20002c);  /* Chrome 10-25, Safari 5.1-6 */;
+  background: linear-gradient(to right, #cbb4d4, #20002c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
   text-align: left;
   /* min-width: 500px; */
 }
@@ -48,7 +50,7 @@ h2 {
   font-weight: 600;
   letter-spacing: 0.3px;
   text-align: left;
-  color: #6d6875;
+  color: #471e56;
   padding: 10px 0px 10px 10px;
 }
 
@@ -89,7 +91,7 @@ img {
 }
 
 .myButton:hover {
-  background-color: #6d6875;
+  background-color: #cbb4d4;
 }
 
 .myButton:active {
@@ -99,34 +101,7 @@ img {
 
 .project {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
-  width: 100%;
-}
-
-.a {
-
-}
-
-.c {
-
-}
-
-.time {
-  padding-left: 10px;
-  padding-top: 10px;
-  width: 20px;
-  height: auto;
-}
-
-.mins {
-  display: inline-block;
-  font-family: Merriweather;
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 0.3px;
-  text-align: left;
-  color: #4a4a4a;
-  position: relative;
-  bottom: 5px;
+  width: 90%;
 }
 
 .description {
@@ -136,16 +111,9 @@ img {
   line-height: 1.29;
   letter-spacing: 0.1px;
   text-align: left;
-  color: #4a4a4a;
-  padding: 10px 0px 10px 10px;
+  color: #471e56;
+  padding: 20px 20px 20px 20px;
   border-top: 1px solid #4a4a4a;
-}
-
-.logo {
-  width: 115px;
-  height: 21.1px;
-  object-fit: contain;
-  padding: 20px;
 }
 
 .container {
